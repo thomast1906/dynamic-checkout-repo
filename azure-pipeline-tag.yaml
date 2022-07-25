@@ -12,7 +12,7 @@ resources:
   repositories:
   - repository: dynamic-checkout-repo2
     type: github
-    ref: 'refs/tags/$(branch_name)'
+    ref: 'refs/tags/$(tag_name)'
     name: thomast1906/dynamic-checkout-repo2
     endpoint: 'thomast1906'
 
