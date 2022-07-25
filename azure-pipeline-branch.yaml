@@ -13,7 +13,7 @@ resources:
   - repository: dynamic-checkout-repo2
     type: github
     ref: 'refs/heads/$(branch_name)'
-    name: thomast1906/tamops-dynamic-checkout-repo2
+    name: thomast1906/dynamic-checkout-repo2
     endpoint: 'thomast1906'
 
 stages:
